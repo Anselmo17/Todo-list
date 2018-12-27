@@ -7,13 +7,17 @@ import store from './store';
 import { Provider } from 'react-redux';
 
 import TodoList from './Todo-list';
+import Counter from './counter';
 
 
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <TodoList/>
+        <div>
+          <TodoList/>
+          <Counter/>
+        </div>
       </Provider>
     );
   }

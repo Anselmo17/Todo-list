@@ -6,5 +6,5 @@ import reducers from './reducers'
 
 const store = createStore(reducers);
 
-//EXPORTANDO O STORE(ARMAZENA O ESTADO DOS DADOS )
+//EXPORTANDO O STORE(ARMAZENA O ESTADO DOS DADOS NA APLICACAO )
 export default store;

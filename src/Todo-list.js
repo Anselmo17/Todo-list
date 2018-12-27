@@ -25,8 +25,8 @@ class TodoList extends Component {
     return (
       <div>
 
-        <h1>Lista de todos </h1>
         {/* Devolve a lista de dados  */}
+        <h1>Lista de Tarefas</h1>
         <ul>
           {
             this.props.todos.map(todo => {
