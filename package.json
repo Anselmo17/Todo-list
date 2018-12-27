@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "react-redux": "^6.0.0",
+    "react-scripts": "2.1.2",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +23,18 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anselmo17/Todo-list.git"
+  },
+  "author": "Anselmo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anselmo17/Todo-list/issues"
+  },
+  "homepage": "https://github.com/Anselmo17/Todo-list#readme"
 }
