@@ -8,25 +8,14 @@ import { Provider } from 'react-redux';
 
 import TodoList from './Todo-list';
 import Counter from './counter';
-<<<<<<< HEAD
-=======
-
->>>>>>> feature/created-redux
 
 // APLICAÇÃO QUE SERÁ RENDERIZADA NA TELA 
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
-<<<<<<< HEAD
         <TodoList/>
         <Counter/>
-=======
-        <div>
-          <TodoList/>
-          <Counter/>
-        </div>
->>>>>>> feature/created-redux
       </Provider>
     );
   }
