@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+//CONNECTA APLICACAO COM O ESTADO DO REDUX
 import { connect } from 'react-redux';
 
 //FAZ JUNCAO DAS ACOES CRIADAS 
@@ -25,8 +26,8 @@ class TodoList extends Component {
     return (
       <div>
 
-        <h1>Lista de todos </h1>
         {/* Devolve a lista de dados  */}
+        <h1>Lista de Tarefas</h1>
         <ul>
           {
             this.props.todos.map(todo => {
