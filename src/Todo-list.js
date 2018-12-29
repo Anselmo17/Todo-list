@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+//CONNECTA APLICACAO COM O ESTADO DO REDUX
 import { connect } from 'react-redux';
 
 //FAZ JUNCAO DAS ACOES CRIADAS 

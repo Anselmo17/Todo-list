@@ -10,6 +10,7 @@ import TodoList from './Todo-list';
 import Counter from './counter';
 
 
+// APLICAÇÃO QUE SERÁ RENDERIZADA NA TELA 
 class App extends Component {
   render() {
     return (
