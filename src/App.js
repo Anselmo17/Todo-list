@@ -1,24 +1,22 @@
 import React, { Component } from 'react';
 
-//IMPORTA O STORE E PASSA ELE PARA O PROVIDER
-import store from './store';
-
-//COMPONENT RESPONSAVEL POR ATUALIZAR ESTADO DA NOSSA APLICAÇÃO QUANDO MUDADO
+//CONECTA A APLICACAO COM O STORE
 import { Provider } from 'react-redux';
 
-import TodoList from './Todo-list';
-import Counter from './counter';
+//IMPORTANDO APLICACAO
+import Aplicacao from './componentes/aplicacao'
 
+//IMPORTANDO OS DADOS DA STORE
+import store from './store'
 
-// APLICAÇÃO QUE SERÁ RENDERIZADA NA TELA 
+// iniciando a aplicacao 
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <div>
-          <TodoList/>
-          <Counter/>
-        </div>
+        <React.Fragment>
+          <Aplicacao />
+        </React.Fragment>
       </Provider>
     );
   }
